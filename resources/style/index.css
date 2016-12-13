@@ -1,0 +1,83 @@
+.main-page-container {
+    padding: 0;
+}
+
+.banner-text {
+    font-family: 'Monoton', cursive;
+    font-size: 48px;
+    text-shadow: 4px 3px 3px #313233;
+    color: #fff;
+}
+
+.backdrop {
+    paddin-top: 50px;
+    height: 80vh;
+    background-image: url('../images/HomePage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover
+}
+
+@media (min-width: 1200px) {
+    .overlay-container {
+        width: 60%;
+        height: 20%;
+        border-radius: 1em;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -15em;
+        bottom: 0;
+        margin: auto;
+        color: #009999;
+        text-align: center;
+    }
+}
+@media (min-width: 992px) {
+    .overlay-container {
+        width: 70%;
+        height: 30%;
+        border-radius: 1em;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -10em;
+        bottom: 0;
+        margin: auto;
+        color: #009999;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .overlay-container {
+        width: 80%;
+        height: 40%;
+        border-radius: 1em;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -5em;
+        bottom: 0;
+        margin: auto;
+        color: #009999;
+        text-align: center;
+    }
+}
+.overlay-container {
+    width: 90%;
+    height: 50%;
+    border-radius: 1em;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #009999;
+    text-align: center;
+}
